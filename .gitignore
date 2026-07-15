@@ -1,0 +1,19 @@
+# Arduino Build-Dateien
+*.hex
+*.elf
+*.bin
+build/
+
+# Editor- und IDE-Dateien
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Betriebssystem-Dateien
+.DS_Store
+Thumbs.db
+
+# Temporäre Dateien
+*.tmp
+*.log
