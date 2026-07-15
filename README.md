@@ -28,10 +28,12 @@ Der Arduino-Code liegt in [`src/arduino_sensorstation.ino`](src/arduino_sensorst
 
 - [Projektziel](docs/projektziel.md)
 - [Systemaufbau](docs/systemaufbau.md)
+- [Schaltplan](hardware/schaltplan.md)
 - [Menü und Bedienung](docs/menue-und-bedienung.md)
 - [Warnlogik](docs/warnlogik.md)
 - [Entwicklung](docs/entwicklung.md)
 - [Herausforderungen](docs/herausforderungen.md)
+- [Was ich anders machen würde](docs/reflexion.md)
 - [Gehäuse](docs/gehaeuse.md)
 
 ## Bilder
