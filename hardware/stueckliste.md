@@ -11,7 +11,6 @@
 | LED grün | 1 | Statusanzeige: kein Problem |
 | LED orange | 1 | Statusanzeige: eine Warnung |
 | LED rot | 1 | Statusanzeige: mehrere Warnungen |
-| Buzzer | 1 | Akustischer Alarm bei mehreren Warnungen |
 | Widerstand (Spannungsteiler für LDR) | 1 | Messschaltung für die Helligkeit |
 | Breadboard | 1 | Aufbau der Schaltung |
 | Jumper-Kabel | mehrere | Verkabelung der Bauteile |
