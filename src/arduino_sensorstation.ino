@@ -43,11 +43,10 @@ bool lastDown = HIGH;
 bool lastOk = HIGH;
 bool lastBack = HIGH;
 
-// ---------------- LEDS / BUZZER ----------------
+// ---------------- LEDS ----------------
 const int greenLED = 9;
 const int orangeLED = 10;
 const int redLED = 11;
-const int buzzer = 12;
 
 // ---------------- SOUND ----------------
 float soundBaseline = 0;
@@ -87,7 +86,6 @@ void setup() {
   pinMode(greenLED, OUTPUT);
   pinMode(orangeLED, OUTPUT);
   pinMode(redLED, OUTPUT);
-  pinMode(buzzer, OUTPUT);
 
   // Sound-Baseline beim Start messen
   long sum = 0;
@@ -131,19 +129,16 @@ void loop() {
     digitalWrite(greenLED, HIGH);
     digitalWrite(orangeLED, LOW);
     digitalWrite(redLED, LOW);
-    noTone(buzzer);
   }
   else if (warnings == 1) {
     digitalWrite(greenLED, LOW);
     digitalWrite(orangeLED, HIGH);
     digitalWrite(redLED, LOW);
-    noTone(buzzer);
   }
   else {
     digitalWrite(greenLED, LOW);
     digitalWrite(orangeLED, LOW);
     digitalWrite(redLED, HIGH);
-    tone(buzzer, 1000);
   }
 
   // -------- BUTTON LOGIC --------
