@@ -1,42 +1,69 @@
-# Arduino-Sensorstation
+# Arduino Sensorstation
 
 Arduino-Projekt zur Integration mehrerer Sensoren mit LCD-Anzeige,
 Menüsteuerung und einer LED-basierten Statusanzeige.
 
-## Funktionen
+## Projektziel
 
-- Messung von Temperatur und Luftfeuchtigkeit (DHT11)
-- Messung der Helligkeit (LDR)
-- Erkennung von Geräuschänderungen (KY-038)
-- Anzeige aller Werte über ein LCD-Display
-- Menüsteuerung über vier Taster
-- Einstellbare Grenzwerte je Sensor
-- Statusanzeige über drei LEDs (grün, orange, rot)
+Ziel war nicht der Bau eines fertigen Systems, sondern das Verständnis
+einzelner Sensoren: Anschluss, Messwerte und Grenzen. Die Sensorstation
+selbst ist dabei eher ein Nebenprodukt als das eigentliche Ziel.
+
+## Arbeit mit den Sensoren
+
+Jeder Sensor wurde einzeln aufgebaut und getestet, bevor er ins
+Gesamtsystem übernommen wurde.
+
+### Temperatur und Luftfeuchtigkeit (DHT11)
+
+[DHT11 Test](bilder/01-einzeltests/04-dht11-breadboard.jpg)
+
+Verkabelung und erste Messwerte auf dem Breadboard.
+
+### Helligkeit (LDR)
+
+[LDR Test](bilder/01-einzeltests/07-ldr-breadboard.jpg)
+
+Kalibrierung anhand eigener Messreihen bei unterschiedlichem Licht.
+
+### Lautstärke (Sound-Sensor)
+
+[Sound Test](bilder/01-einzeltests/09-sound-test1.jpg)
+
+Der Sensor liefert nur eine Abweichung vom Ruhepegel, keinen absoluten
+Wert. Das zeigte sich erst bei den Tests.
+
+## Aufbau und Bedienung
+
+[Gesamtaufbau](bilder/02-gesamtaufbau/03-verkabelung-final.jpg)
+
+[Menü](bilder/03-menue/02-startbildschirm.jpg)
+
+Ein Tasten-Menü zeigt Messwerte an und erlaubt das Ändern von
+Grenzwerten. Dazu kommt eine dreistufige Statusanzeige (OK, Warnung,
+Alarm).
 
 ## Hardware
-
-Details zu Bauteilen und Verkabelung:
 
 - [Stückliste](hardware/stueckliste.md)
 - [Pinbelegung](hardware/pinbelegung.md)
 
 ## Software
 
-Der Arduino-Code liegt in [`src/arduino_sensorstation.ino`](src/arduino_sensorstation.ino).
+- [Quellcode](software/sensorstation.ino)
 
-## Dokumentation
+## Was ich dabei gelernt habe
 
-- [Projektziel](docs/projektziel.md)
+- Analoge und digitale Sensoren unterscheiden sich in Ansteuerung und Rauschen
+- Kalibrierung war bei einfachen Sensoren oft wichtiger als der reine Anschluss
+- Schwankende Werte, etwa beim Sound-Sensor, ließen sich nur durch Testen einordnen
+- Ein einfaches Menü reichte aus, um die Sensordaten nutzbar zu machen
+
+## Weitere Dokumentation
+
 - [Systemaufbau](docs/systemaufbau.md)
-- [Schaltplan](hardware/schaltplan.md)
 - [Menü und Bedienung](docs/menue-und-bedienung.md)
 - [Warnlogik](docs/warnlogik.md)
 - [Entwicklung](docs/entwicklung.md)
 - [Herausforderungen](docs/herausforderungen.md)
 - [Was ich anders machen würde](docs/reflexion.md)
-- [Gehäuse](docs/gehaeuse.md)
-
-## Bilder
-
-Bilder zum Aufbau, zum Menü und zum Gehäuse befinden sich im Ordner
-[`bilder/`](bilder/).
