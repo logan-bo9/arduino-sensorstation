@@ -16,13 +16,13 @@ Gesamtsystem übernommen wurde.
 
 ### Temperatur und Luftfeuchtigkeit (DHT11)
 
-[DHT11 Test](bilder/01-einzeltests/04-dht11-breadboard.jpg)
+[DHT11 Test](bilder/01-einzeltests/04-dht11-test.jpg)
 
 Verkabelung und erste Messwerte auf dem Breadboard.
 
 ### Helligkeit (LDR)
 
-[LDR Test](bilder/01-einzeltests/07-ldr-breadboard.jpg)
+[LDR Test](bilder/01-einzeltests/07-ldr-testdata.jpg)
 
 Kalibrierung anhand eigener Messreihen bei unterschiedlichem Licht.
 
@@ -42,6 +42,8 @@ Wert. Das zeigte sich erst bei den Tests.
 Ein Tasten-Menü zeigt Messwerte an und erlaubt das Ändern von
 Grenzwerten. Dazu kommt eine dreistufige Statusanzeige (OK, Warnung,
 Alarm).
+
+[weitere Bilder](bilder)
 
 ## Hardware
 
