@@ -3,7 +3,7 @@
 Arduino-Projekt zur Integration mehrerer Sensoren mit LCD-Anzeige,
 Menüsteuerung und einer LED-basierten Statusanzeige.
 
-## Projektziel
+## [Projektziel](docs/projektziel.md)
 
 Ziel war nicht der Bau eines fertigen Systems, sondern das Verständnis
 einzelner Sensoren: Anschluss, Messwerte und Grenzen. Die Sensorstation
