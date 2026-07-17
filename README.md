@@ -16,13 +16,13 @@ Gesamtsystem übernommen wurde.
 
 ### Temperatur und Luftfeuchtigkeit (DHT11)
 
-[DHT11 Test](bilder/01-einzeltests/04-dht11-test.jpg)
+[DHT11 Test](bilder/01-einzeltests/06-dht11-test.jpg)
 
 Verkabelung und erste Messwerte auf dem Breadboard.
 
 ### Helligkeit (LDR)
 
-[LDR Test](bilder/01-einzeltests/07-ldr-testdata.jpg)
+[LDR Test](bilder/01-einzeltests/08-ldr-testdata.jpg)
 
 Kalibrierung anhand eigener Messreihen bei unterschiedlichem Licht.
 
