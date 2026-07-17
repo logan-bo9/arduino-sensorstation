@@ -52,7 +52,7 @@ Alarm).
 
 ## Software
 
-- [Quellcode](software/sensorstation.ino)
+- [Quellcode](src/arduino_sensorstation.ino)
 
 ## Was ich dabei gelernt habe
 
