@@ -2,7 +2,7 @@
 
 Arduino-Projekt zur Integration mehrerer Sensoren mit LCD-Anzeige,
 Menüsteuerung und einer LED-basierten Statusanzeige.
-Hier gehts zum [Fertiges Produkt](bilder/02-gesamtaufbau/04-produkt.png) <--
+Hier gehts zum [fertigen Produkt](bilder/02-gesamtaufbau/04-produkt.png) <--
 
 ## [Projektziel](docs/projektziel.md)
 
