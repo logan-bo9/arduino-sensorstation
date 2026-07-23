@@ -2,6 +2,7 @@
 
 Arduino-Projekt zur Integration mehrerer Sensoren mit LCD-Anzeige,
 Menüsteuerung und einer LED-basierten Statusanzeige.
+Hier gehts zum [Fertiges Produkt](bilder/02-gesamtaufbau/04-produkt.png) <--
 
 ## [Projektziel](docs/projektziel.md)
 
@@ -32,6 +33,15 @@ Kalibrierung anhand eigener Messreihen bei unterschiedlichem Licht.
 
 Der Sensor liefert nur eine Abweichung vom Ruhepegel, keinen absoluten
 Wert. Das zeigte sich erst bei den Tests.
+
+## Gehäuse
+
+[3D-Modell (Tinkercad)](bilder/05-gehaeuse/gehaeuse-3d-proto.png)
+
+[Fertiges Gehäuse](bilder/05-gehaeuse/02-endergebnis.jpg)
+
+Das Gehäuse wurde zunächst als 3D-Modell entworfen und anschließend
+gefertigt.
 
 ## Aufbau und Bedienung
 
